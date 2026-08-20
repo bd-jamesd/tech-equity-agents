@@ -11,6 +11,7 @@ logic**. Today, you write the decision logic yourself in plain Python.
 ## What you need
 
 - Python 3.10+ [Python Download] https://www.python.org/downloads/
+* For Mac you may need to use python3 and pip3 commands throughout the workshop, depending on your system configuration
 - A free [Bright Data](https://brightdata.com) account (no credit card required)
 - Your Bright Data API token from [User Settings](https://brightdata.com/cp/setting/users)
 
@@ -19,9 +20,13 @@ logic**. Today, you write the decision logic yourself in plain Python.
 ## Setup
 
 **1. Clone / download this repo, then install dependencies:**
-Run the following command from your CLI or [download the zip file.](https://github.com/bd-jamesd/tech-equity-agents/archive/refs/heads/main.zip)
+Run the following command from your CLI to clone the lab repo or [download the zip file.](https://github.com/bd-jamesd/tech-equity-agents/archive/refs/heads/main.zip)
 
+```bash
 `git clone https://github.com/bd-jamesd/tech-equity-agents`
+```
+
+Install the requirements using pip (note on Mac this might be pip3 instead of pip, depending on your configuartion)
 
 ```bash
 pip install -r requirements.txt
