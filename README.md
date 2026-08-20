@@ -19,6 +19,9 @@ logic**. Today, you write the decision logic yourself in plain Python.
 ## Setup
 
 **1. Clone / download this repo, then install dependencies:**
+Run the following command from your CLI or [download the zip file.](https://github.com/bd-jamesd/tech-equity-agents/archive/refs/heads/main.zip)
+
+`git clone https://github.com/bd-jamesd/tech-equity-agents`
 
 ```bash
 pip install -r requirements.txt
@@ -26,8 +29,8 @@ pip install -r requirements.txt
 
 **2. Add your API token.**
 
-Open each exercise file and replace `"YOUR_API_TOKEN"` with your actual token.
-Access your token under settings in the [Bright Data Control Panel](https://brightdata.com/cp/setting/users)
+Open each exercise file and replace `"YOUR_API_TOKEN"` on line 5 with your actual token.
+You can access your token under settings in the [Bright Data Control Panel](https://brightdata.com/cp/setting/users)
 
 ![API Keys](api_keys.png)
 
