@@ -10,7 +10,7 @@ logic**. Today, you write the decision logic yourself in plain Python.
 
 ## What you need
 
-* Python 3.10+ [Python Download] https://www.python.org/downloads/
+* Python 3.10+ [Python Download](https://www.python.org/downloads/)
 ** Note for Mac you may need to use python3 and pip3 commands throughout the workshop, depending on your system configuration
 * A free [Bright Data](https://brightdata.com) account (no credit card required)
 * Your Bright Data API token from [User Settings](https://brightdata.com/cp/setting/users)
