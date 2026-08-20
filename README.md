@@ -117,8 +117,15 @@ prices and alert when one drops below a target.
 Uses the structured `web_data_amazon_product` tool (Pro tier — note the
 `&pro=1` in the MCP URL).
 
-Make sure to enabled the E-commerce skill for your MCP server. Go to [https://brightdata.com/cp/mcp?id=all](https://brightdata.com/cp/mcp?id=all)
+Make sure to enabled the E-commerce skill for your MCP server. Go to [https://brightdata.com/cp/mcp?id=all](https://brightdata.com/cp/mcp?id=all), select the "E-Commerce tools" checkbox, then click "Continue to Configure"
+
 ![Enable E-Commerce Tool](configure_mcp_tools.png)
+
+On the next screen, click "Copy and Close." This will save the settings and copy the API key into your clipboard.
+
+![Click Copy and Close](configure_mcp_accept.png)
+
+
 ```bash
 python exercise3.py
 ```
