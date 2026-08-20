@@ -42,7 +42,7 @@ You can access your token under settings in the [Bright Data Control Panel](http
 **3. Verify your setup works:**
 
 ```bash
-python 00_connect.py
+python exercise0.py
 ```
 
 If it prints a list of available tools, you're ready to go.
@@ -55,7 +55,7 @@ If it prints a list of available tools, you're ready to go.
 .
 ├── requirements.txt
 ├── helpers.py          # shared utilities used by all exercises
-├── 00_connect.py        # setup verification script
+├── exercise0.py        # setup verification script
 ├── exercise1.py         # direct tool calls (search + scrape)
 ├── exercise2.py          # chaining tools into a research pipeline
 └── exercise3.py          # Price Watcher Agent (the main build)
@@ -150,7 +150,7 @@ WATCHLIST = [
 ```
 
 **Stretch goals:**
-- Integrate the Bright Data MCP with your favorite chatbot [integration guide](https://docs.brightdata.com/ai/mcp-server/integrations/overview) and try using the Bright Data skills used in the lab with your preffred chatbot.
+- Integrate the Bright Data MCP with your favorite LLM [integration guide](https://docs.brightdata.com/ai/mcp-server/integrations/overview) and try using the Bright Data skills used in the lab with your preffred LLM.
 - Try [additional tools](https://docs.brightdata.com/ai/mcp-server/tools) for your MCP server. Remember to [enable the tools for your MCP server](https://brightdata.com/cp/mcp?id=all)
 
 ---
