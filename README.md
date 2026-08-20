@@ -23,7 +23,7 @@ logic**. Today, you write the decision logic yourself in plain Python.
 Run the following command from your CLI to clone the lab repo or [download the zip file.](https://github.com/bd-jamesd/tech-equity-agents/archive/refs/heads/main.zip)
 
 ```bash
-`git clone https://github.com/bd-jamesd/tech-equity-agents`
+git clone https://github.com/bd-jamesd/tech-equity-agents
 ```
 
 Install the requirements using pip (note on Mac this might be pip3 instead of pip, depending on your configuartion)
