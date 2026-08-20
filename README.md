@@ -27,7 +27,9 @@ pip install -r requirements.txt
 **2. Add your API token.**
 
 Open each exercise file and replace `"YOUR_API_TOKEN"` with your actual token.
+Access your token under settings in the [Bright Data Control Panel](https://brightdata.com/cp/setting/users)
 
+![API Keys](api_keys.png)
 
 **3. Verify your setup works:**
 
@@ -61,7 +63,7 @@ Normally an LLM sits in that loop and decides which tool to call next based
 on reasoning. Today, *you* are the reasoning engine — you write the
 `if`/`else` decision logic in Python, and Bright Data MCP tools do the
 data-gathering. This is exactly how a lot of production automation works:
-deterministic, cheap, debuggable, and LLM-free.
+deterministic, cheap, debuggable, and LLM-free. If you have time after the exercies, you can connect the Bright Data MCP to augment your favorite LLM with live web data.
 
 Bright Data MCP handles the hard part — bot detection, CAPTCHAs, proxies,
 structured parsing — so your Python code stays simple.
@@ -117,7 +119,7 @@ prices and alert when one drops below a target.
 Uses the structured `web_data_amazon_product` tool (Pro tier — note the
 `&pro=1` in the MCP URL).
 
-Make sure to enabled the E-commerce skill for your MCP server. Go to [https://brightdata.com/cp/mcp?id=all](https://brightdata.com/cp/mcp?id=all), select the "E-Commerce tools" checkbox, then click "Continue to Configure"
+Make sure to enabled the E-commerce skill for your MCP server. Go to [https://brightdata.com/cp/mcp?id=all](https://brightdata.com/cp/mcp?id=all), select the "E-Commerce tools" checkbox, then click "Continue to Configure."
 
 ![Enable E-Commerce Tool](configure_mcp_tools.png)
 
