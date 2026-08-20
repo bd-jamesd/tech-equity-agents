@@ -118,7 +118,7 @@ Uses the structured `web_data_amazon_product` tool (Pro tier — note the
 `&pro=1` in the MCP URL).
 
 Make sure to enabled the E-commerce skill for your MCP server. Go to [https://brightdata.com/cp/mcp?id=all](https://brightdata.com/cp/mcp?id=all)
-![Enable E-Commerce Tool](main/configure_mcp_tools.png)
+![Enable E-Commerce Tool](configure_mcp_tools.png)
 ```bash
 python exercise3.py
 ```
